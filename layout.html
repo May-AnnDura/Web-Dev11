@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Home</title>
+
+        <style>
+            body {
+                margin: 0;
+                font-family: Times New Roman;
+            }
+            #contentContainer {
+                display: flex;
+                height: 100%;
+                background-color: #9eb56e;
+            }
+
+            footer {
+                height: 8%;
+                background-color: rgb(41, 38, 38);
+            }
+
+            nav {
+                height: 6%;
+                background-color: #166942;
+            }
+
+            ol {
+                margin: 0;
+                padding: 0;
+                float: left; 
+                list-style: none;  
+                position: absolute;
+                left: 1px;
+                top: 150px;
+            }
+
+            ul {
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                list-style-type: none;
+                background-color: #166942;
+            }
+
+            h1 {
+                margin: 0;
+                padding: 0;
+                text-align: center;
+            }
+
+            a:hover {
+                background-color: #0e4730;
+            }
+
+            .navList {
+                float: center;
+                display: inline-block;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .faqList {
+                display: block;
+                margin-left: 0px;
+                padding: 20px 15px;
+                text-decoration: none;
+            }
+
+            #faqHeader {
+                padding-top: 1px;
+                margin: 15;
+            }
+
+            #header {
+                padding-top: 10px;
+                padding-bottom: 0px;
+                background-color: #166942;
+            }
+          
+            #navContainer {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            #navLinkContainer {
+                width: 100%;
+                height: 10%;
+                margin: auto;
+            }
+
+            a {
+                font-family: Times New Roman;
+                font-size: 20px;
+                text-decoration: none;
+                color: #85ffc6;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <h1>HEADER</h1>
+                <nav>
+                    <div id="navContainer">
+                        <div style="flex: 1"></div>
+                        <div id="navLinkContainer">
+                            <ul>
+                                <li class="navList">
+                                    <a href="./layout.html">Home</a>
+                                </li>
+                                <li class="navList">
+                                    <a href="./layout.html">News</a>
+                                </li>
+                                <li class="navList">
+                                    <a href="./layout.html">Contact</a>
+                                </li>
+                                <li class="navList">
+                                    <a href="./layout.html">FAQ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div>
+            <div id="contentContainer">
+                <h1 id="faqHeader">FAQ</h1>
+                <ol>
+                    <li class="faqList">WHAT IS</li>
+                    <li class="faqList">WHAT IS</li>
+                    <li class="faqList">WHAT IS</li>
+                    <li class="faqList">WHAT IS</li>
+                </ol>
+            </div>
+        </div>
+        <footer>
+            <span style="color: white">Copyright Law: WEBDEV11 2023</span>
+        </footer>
+    </body>
+</html>
